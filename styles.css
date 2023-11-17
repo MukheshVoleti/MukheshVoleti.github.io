@@ -1,0 +1,50 @@
+body {
+    font-family: 'Avenir', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header-bar {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    background-color: white;
+}
+
+.back-button {
+    width: 58px;
+    /* Add styles for the back button */
+}
+
+.title {
+    flex-grow: 1;
+    text-align: center;
+    font-weight: 800;
+    font-size: 17px;
+    color: #384753; /* Replace with your text2 color */
+}
+
+.content {
+    padding: 11px;
+}
+
+.date, h2, p {
+    color: #384753; /* Replace with your text2 color */
+    font-weight: 400;
+}
+
+.date {
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
